@@ -1,0 +1,69 @@
+$color: #00CE89;
+$bg: #F5F5F5;
+$stroke: #AAAAAA;
+$box-shadow: inset 0px 0px 0px 10px;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  background-color: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  border: 10px solid rgba($color, 0.4);
+  box-shadow: $box-shadow rgba($color, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .title {
+    margin-top: -40px;
+  }
+  .Rating{
+    border: 10px solid rgba(0, 206, 137, 0.2);
+    box-shadow: $box-shadow rgba($color, 0.4);
+    padding: 40px;
+    background-color: rgba($bg, 0.6);
+    display: flex;
+    &> i{
+      margin: 10px;
+    }
+    .empty,
+    .half,
+    .full{
+      font-size: 40px;
+    }
+    .empty{
+      color: #ddd;
+      -webkit-text-stroke: 2px $stroke;
+    }
+    .half{
+      display: inline-block;
+      position: relative;
+      color: #ddd;
+      -webkit-text-stroke: 2px $stroke;
+    }
+    .half::after{
+      font-family: "Font Awesome 5 Free";
+      content: "\f005";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 50%;
+      overflow: hidden;
+      color: yellow;
+      -webkit-text-stroke: 2px orange;
+    }
+    .full{
+      color: yellow;
+      -webkit-text-stroke: 2px orange;
+    }
+  }
+}
+
+
+
+
