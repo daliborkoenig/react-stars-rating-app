@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-stars-rating-app/static/css/main.97547a47.chunk.css",
+    "main.js": "/react-stars-rating-app/static/js/main.475fb389.chunk.js",
+    "main.js.map": "/react-stars-rating-app/static/js/main.475fb389.chunk.js.map",
+    "runtime-main.js": "/react-stars-rating-app/static/js/runtime-main.0db41094.js",
+    "runtime-main.js.map": "/react-stars-rating-app/static/js/runtime-main.0db41094.js.map",
+    "static/css/2.1f835fdf.chunk.css": "/react-stars-rating-app/static/css/2.1f835fdf.chunk.css",
+    "static/js/2.fe515ebe.chunk.js": "/react-stars-rating-app/static/js/2.fe515ebe.chunk.js",
+    "static/js/2.fe515ebe.chunk.js.map": "/react-stars-rating-app/static/js/2.fe515ebe.chunk.js.map",
+    "index.html": "/react-stars-rating-app/index.html",
+    "static/css/2.1f835fdf.chunk.css.map": "/react-stars-rating-app/static/css/2.1f835fdf.chunk.css.map",
+    "static/css/main.97547a47.chunk.css.map": "/react-stars-rating-app/static/css/main.97547a47.chunk.css.map",
+    "static/js/2.fe515ebe.chunk.js.LICENSE.txt": "/react-stars-rating-app/static/js/2.fe515ebe.chunk.js.LICENSE.txt",
+    "static/media/all.css": "/react-stars-rating-app/static/media/fa-solid-900.efbd5d20.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0db41094.js",
+    "static/css/2.1f835fdf.chunk.css",
+    "static/js/2.fe515ebe.chunk.js",
+    "static/css/main.97547a47.chunk.css",
+    "static/js/main.475fb389.chunk.js"
+  ]
+}
